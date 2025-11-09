@@ -47,7 +47,7 @@ export const RecordingStatus: React.FC<RecordingStatusProps> = ({
   return (
     <>
       <div
-        className={`flex items-center gap-3 px-4 py-2.5 ${status.bgColor} backdrop-blur-md rounded-full border ${status.borderColor} shadow-lg transition-all duration-300`}
+        className={`flex items-center gap-3 mr-4 px-4 py-2.5 ${status.bgColor} backdrop-blur-md rounded-full border ${status.borderColor} shadow-lg transition-all duration-300`}
       >
         {status.showCircle ? (
           <Circle
