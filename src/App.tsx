@@ -47,12 +47,6 @@ const SentimentAuraApp: React.FC = () => {
           onToggleRecording={toggleRecording}
         />
       </div>
-
-      {/* {error && (
-        <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-br from-red-500/50 via-rose-500/50 to-red-600/50 backdrop-blur-xl border border-red-400/30 text-white px-6 py-4 rounded-2xl max-w-md text-center z-50 shadow-2xl">
-          {error}
-        </div>
-      )} */}
     </div>
   );
 };
